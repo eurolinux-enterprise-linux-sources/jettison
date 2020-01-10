@@ -1,6 +1,6 @@
 Name:           jettison
 Version:        1.3.3
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        A JSON StAX implementation
 Group:          Development/Libraries
 License:        ASL 2.0
@@ -73,6 +73,9 @@ This package contains the API documentation for %{name}.
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3.3-4
+- Mass rebuild 2013-12-27
+
 * Tue Aug 27 2013 Michal Srb <msrb@redhat.com> - 1.3.3-3
 - Migrate away from mvn-rpmbuild (Resolves: #997464)
 
